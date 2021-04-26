@@ -142,7 +142,7 @@ function! everforest#get_palette(background) "{{{
           \ 'green':      ['#8da101',   '106',  'Green'],
           \ 'aqua':       ['#35a77c',   '37',   'Cyan'],
           \ 'blue':       ['#3a94c5',   '32',   'Blue'],
-          \ 'purple':     ['#df69ba',   '162',  'Magenta'],
+          \ 'purple':     ['#d67ba7',   '162',  'Magenta'],
           \ 'grey0':      ['#a0a79a',   '247',  'DarkGrey'],
           \ 'grey1':      ['#999f93',   '247',  'Grey'],
           \ 'grey2':      ['#92978c',   '247',  'LightGrey'],
