@@ -802,14 +802,14 @@ highlight! link TagbarVisibilityPublic Blue
 highlight! link VistaBracket Grey
 highlight! link VistaChildrenNr Orange
 highlight! link VistaScope Red
-highlight! link VistaTag Green
+highlight! link VistaTag Aqua
 highlight! link VistaPrefix Grey
 highlight! link VistaIcon Orange
 highlight! link VistaScopeKind Yellow
 highlight! link VistaColon Grey
 highlight! link VistaLineNr Grey
 highlight! link VistaHeadNr Fg
-highlight! link VistaPublic Green
+highlight! link VistaPublic Aqua
 highlight! link VistaProtected Yellow
 highlight! link VistaPrivate Red
 " ft_end }}}
