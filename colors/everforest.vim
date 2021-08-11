@@ -93,7 +93,7 @@ call everforest#highlight('Whitespace', s:palette.bg3, s:palette.none)
 call everforest#highlight('SpecialKey', s:palette.bg3, s:palette.none)
 call everforest#highlight('Pmenu', s:palette.fg, s:palette.bg2)
 call everforest#highlight('PmenuSbar', s:palette.none, s:palette.bg2)
-call everforest#highlight('PmenuSel', s:palette.bg0, s:palette.statusline1)
+call everforest#highlight('PmenuSel', s:palette.bg0, s:palette.aqua)
 highlight! link WildMenu PmenuSel
 call everforest#highlight('PmenuThumb', s:palette.none, s:palette.grey0)
 call everforest#highlight('NormalFloat', s:palette.fg, s:palette.bg2)
