@@ -185,7 +185,6 @@ call everforest#highlight('Title', s:palette.orange, s:palette.none, 'bold')
 call everforest#highlight('Special', s:palette.yellow, s:palette.none)
 call everforest#highlight('SpecialChar', s:palette.yellow, s:palette.none)
 call everforest#highlight('Type', s:palette.yellow, s:palette.none)
-"call everforest#highlight('Function', s:palette.green, s:palette.none)
 call everforest#highlight('Function', s:palette.blue, s:palette.none)
 call everforest#highlight('String', s:palette.green, s:palette.none)
 call everforest#highlight('Character', s:palette.green, s:palette.none)
@@ -350,9 +349,9 @@ highlight! link TSError ErrorText
 highlight! link TSException Red
 highlight! link TSField Green
 highlight! link TSFloat Purple
-highlight! link TSFuncBuiltin Green
-highlight! link TSFuncMacro Green
-highlight! link TSFunction Green
+highlight! link TSFuncBuiltin Blue
+highlight! link TSFuncMacro Blue
+highlight! link TSFunction Blue
 highlight! link TSInclude PurpleItalic
 highlight! link TSKeyword Red
 highlight! link TSKeywordFunction Red
@@ -1085,7 +1084,7 @@ highlight! link sassInterpolationDelimiter Green
 highlight! link sassFunction Yellow
 highlight! link sassControl RedItalic
 highlight! link sassFor RedItalic
-highlight! link sassFunctionName Green
+highlight! link sassFunctionName Blue
 " }}}
 " ft_end }}}
 " ft_begin: less {{{
@@ -1120,8 +1119,8 @@ highlight! link jsFunction RedItalic
 highlight! link jsGlobalNodeObjects PurpleItalic
 highlight! link jsGlobalObjects Yellow
 highlight! link jsArrowFunction Purple
-highlight! link jsArrowFuncArgs Blue
-highlight! link jsFuncArgs Blue
+highlight! link jsArrowFuncArgs Green
+highlight! link jsFuncArgs Green
 highlight! link jsObjectProp Aqua
 highlight! link jsVariableDef Blue
 highlight! link jsObjectKey Aqua
@@ -1153,7 +1152,7 @@ highlight! link javascriptVariable Orange
 highlight! link javascriptObjectLabel Aqua
 highlight! link javascriptObjectLabelColon Grey
 highlight! link javascriptPropertyNameString Aqua
-highlight! link javascriptFuncArg Blue
+highlight! link javascriptFuncArg Green
 highlight! link javascriptIdentifier Purple
 highlight! link javascriptArrowFunc Purple
 highlight! link javascriptTemplate Yellow
@@ -1208,7 +1207,7 @@ highlight! link javascriptGeolocationMethod Green
 highlight! link javascriptES6MapMethod Green
 highlight! link javascriptServiceWorkerMethod Green
 highlight! link javascriptCacheMethod Green
-highlight! link javascriptFunctionMethod Green
+highlight! link javascriptFunctionMethod Blue
 highlight! link javascriptXHRMethod Green
 highlight! link javascriptBOMNavigatorMethod Green
 highlight! link javascriptServiceWorkerMethod Green
@@ -1547,8 +1546,8 @@ highlight! link pythonExClass Purple
 highlight! link pythonBuiltinType Yellow
 highlight! link pythonBuiltinObj Blue
 highlight! link pythonDottedName PurpleItalic
-highlight! link pythonBuiltinFunc Green
-highlight! link pythonFunction Aqua
+highlight! link pythonBuiltinFunc Blue
+highlight! link pythonFunction Blue
 highlight! link pythonDecorator Orange
 highlight! link pythonInclude Include
 highlight! link pythonImport PreProc
@@ -1579,13 +1578,13 @@ highlight! link semshiErrorChar RedSign
 " ft_end }}}
 " ft_begin: lua {{{
 " builtin: {{{
-highlight! link luaFunc Green
+highlight! link luaFunc blue
 highlight! link luaFunction Aqua
 highlight! link luaTable Fg
 highlight! link luaIn RedItalic
 " }}}
 " vim-lua: https://github.com/tbastos/vim-lua {{{
-highlight! link luaFuncCall Green
+highlight! link luaFuncCall Blue
 highlight! link luaLocal Orange
 highlight! link luaSpecialValue Green
 highlight! link luaBraces Fg
@@ -1602,7 +1601,7 @@ highlight! link luaDocTag Green
 " moonscript-vim: https://github.com/leafo/moonscript-vim {{{
 highlight! link moonInterpDelim Yellow
 highlight! link moonInterp Blue
-highlight! link moonFunction Green
+highlight! link moonFunction Blue
 highlight! link moonLuaFunc Aqua
 highlight! link moonSpecialVar Purple
 highlight! link moonObject Yellow
@@ -1770,10 +1769,10 @@ highlight! link ocamlModParam1 Blue
 " ft_begin: erlang {{{
 " builtin: https://github.com/vim-erlang/vim-erlang-runtime {{{
 highlight! link erlangAtom Aqua
-highlight! link erlangLocalFuncRef Green
-highlight! link erlangLocalFuncCall Green
-highlight! link erlangGlobalFuncRef Green
-highlight! link erlangGlobalFuncCall Green
+highlight! link erlangLocalFuncRef Blue
+highlight! link erlangLocalFuncCall Blue
+highlight! link erlangGlobalFuncRef Blue
+highlight! link erlangGlobalFuncCall Blue
 highlight! link erlangAttribute PurpleItalic
 highlight! link erlangPipe Orange
 " }}}
@@ -1855,19 +1854,19 @@ highlight! link shVariable Blue
 highlight! link shVarAssign Orange
 highlight! link shCmdSubRegion Green
 highlight! link shCommandSub Orange
-highlight! link shFunctionOne Green
+highlight! link shFunctionOne Blue
 highlight! link shFunctionKey RedItalic
 " }}}
 " ft_end }}}
 " ft_begin: zsh {{{
 " builtin: https://github.com/chrisbra/vim-zsh {{{
 highlight! link zshOptStart PurpleItalic
-highlight! link zshOption Blue
+highlight! link zshOption Green
 highlight! link zshSubst Yellow
-highlight! link zshFunction Green
-highlight! link zshDeref Blue
+highlight! link zshFunction Blue
+highlight! link zshDeref Aqua
 highlight! link zshTypes Orange
-highlight! link zshVariableDef Blue
+highlight! link zshVariableDef Aqua
 " }}}
 " ft_end }}}
 " ft_begin: fish {{{
@@ -1888,10 +1887,10 @@ highlight! link ps1BuiltIn Yellow
 " ft_begin: vim {{{
 call everforest#highlight('vimCommentTitle', s:palette.grey1, s:palette.none, 'bold')
 highlight! link vimLet Orange
-highlight! link vimFunction Green
+highlight! link vimFunction Blue
 highlight! link vimIsCommand Fg
-highlight! link vimUserFunc Green
-highlight! link vimFuncName Green
+highlight! link vimUserFunc Blue
+highlight! link vimFuncName Blue
 highlight! link vimMap PurpleItalic
 highlight! link vimNotation Aqua
 highlight! link vimMapLhs Green
