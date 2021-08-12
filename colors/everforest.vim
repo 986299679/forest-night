@@ -1653,7 +1653,7 @@ highlight! link goDeclType OrangeItalic
 highlight! link goPackage PurpleItalic
 highlight! link goImport PurpleItalic
 highlight! link goVarArgs Blue
-highlight! link goBuiltins Green
+highlight! link goBuiltins Aqua
 highlight! link goPredefinedIdentifiers Aqua
 highlight! link goVar Orange
 " }}}
