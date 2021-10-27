@@ -163,6 +163,7 @@ if s:configuration.enable_italic
   call everforest#highlight('Typedef', s:palette.red, s:palette.none, 'italic')
   call everforest#highlight('Exception', s:palette.red, s:palette.none, 'italic')
   call everforest#highlight('Statement', s:palette.red, s:palette.none, 'italic')
+  call everforest#highlight('Label', s:palette.orange, s:palette.none, 'italic')
 else
   call everforest#highlight('PreProc', s:palette.purple, s:palette.none)
   call everforest#highlight('PreCondit', s:palette.purple, s:palette.none)
@@ -174,11 +175,11 @@ else
   call everforest#highlight('Typedef', s:palette.red, s:palette.none)
   call everforest#highlight('Exception', s:palette.red, s:palette.none)
   call everforest#highlight('Statement', s:palette.red, s:palette.none)
+  call everforest#highlight('Label', s:palette.orange, s:palette.none)
 endif
 call everforest#highlight('Error', s:palette.red, s:palette.none)
 call everforest#highlight('StorageClass', s:palette.orange, s:palette.none)
 call everforest#highlight('Tag', s:palette.orange, s:palette.none)
-call everforest#highlight('Label', s:palette.orange, s:palette.none, 'italic')
 call everforest#highlight('Structure', s:palette.orange, s:palette.none)
 call everforest#highlight('Operator', s:palette.orange, s:palette.none)
 call everforest#highlight('Title', s:palette.orange, s:palette.none, 'bold')
