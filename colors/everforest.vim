@@ -1657,6 +1657,8 @@ highlight! link goVarArgs Blue
 highlight! link goBuiltins Aqua
 highlight! link goPredefinedIdentifiers Aqua
 highlight! link goVar Orange
+highlight! link goParamName Purple
+highlight! link goFunction Aqua
 " }}}
 " ft_end }}}
 " ft_begin: rust {{{
