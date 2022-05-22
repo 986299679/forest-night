@@ -223,6 +223,7 @@ if s:configuration.enable_italic
   call everforest#highlight('AquaItalic', s:palette.aqua, s:palette.none, 'italic')
   call everforest#highlight('BlueItalic', s:palette.blue, s:palette.none, 'italic')
   call everforest#highlight('PurpleItalic', s:palette.purple, s:palette.none, 'italic')
+  call everforest#highlight('GreyItalic', s:palette.grey1, s:palette.none, 'italic')
 else
   call everforest#highlight('RedItalic', s:palette.red, s:palette.none)
   call everforest#highlight('OrangeItalic', s:palette.orange, s:palette.none)
@@ -336,40 +337,42 @@ endif
 " }}}
 " Plugins: {{{
 " nvim-treesitter/nvim-treesitter {{{
-highlight! link TSAnnotation Purple
-highlight! link TSAttribute Purple
+highlight! link TSAttribute Aqua
 highlight! link TSBoolean Purple
-highlight! link TSCharacter Yellow
-highlight! link TSComment Grey
-highlight! link TSConditional Red
-highlight! link TSConstBuiltin PurpleItalic
-highlight! link TSConstMacro Purple
-highlight! link TSConstant PurpleItalic
-highlight! link TSConstructor Fg
+highlight! link TSCharacter Green
+highlight! link TSCharacterSpecial Yellow
+highlight! link TSComment GreyItalic
+highlight! link TSConditional RedItalic
+highlight! link TSConstBuiltin Aqua
+highlight! link TSConstMacro Aqua
+highlight! link TSConstant Aqua
+highlight! link TSConstructor Aqua
 highlight! link TSError ErrorText
 highlight! link TSException Red
 highlight! link TSField Green
 highlight! link TSFloat Purple
-highlight! link TSFuncBuiltin Blue
-highlight! link TSFuncMacro Blue
+highlight! link TSFuncBuiltin Aqua
+highlight! link TSFuncMacro Aqua
 highlight! link TSFunction Blue
 highlight! link TSInclude PurpleItalic
-highlight! link TSKeyword Red
-highlight! link TSKeywordFunction Red
+highlight! link TSKeyword Orange
+highlight! link TSKeywordFunction RedItalic
+highlight! link TSKeywordReturn Red
 highlight! link TSLabel Orange
-highlight! link TSMethod Green
-highlight! link TSNamespace BlueItalic
+highlight! link TSMethod Blue
+highlight! link TSNamespace Aqua
 highlight! link TSNumber Purple
 highlight! link TSOperator Orange
-highlight! link TSParameter Fg
+highlight! link TSParameter Purple
 highlight! link TSParameterReference Fg
 highlight! link TSProperty Green
-highlight! link TSPunctBracket Fg
+highlight! link TSPunctBracket Aqua
 highlight! link TSPunctDelimiter Grey
 highlight! link TSPunctSpecial Fg
-highlight! link TSRepeat Red
-highlight! link TSString Yellow
-highlight! link TSStringEscape Green
+highlight! link TSRepeat AquaItalic
+highlight! link TSString Green
+highlight! link TSStringSpecial Yellow
+highlight! link TSStringEscape Yellow
 highlight! link TSStringRegex Green
 highlight! link TSStructure Orange
 highlight! link TSTag Orange
@@ -377,11 +380,11 @@ highlight! link TSTagDelimiter Green
 highlight! link TSText Green
 call everforest#highlight('TSEmphasis', s:palette.none, s:palette.none, 'bold')
 call everforest#highlight('TSUnderline', s:palette.none, s:palette.none, 'underline')
-highlight! link TSType Aqua
-highlight! link TSTypeBuiltin BlueItalic
+highlight! link TSType Yellow
+highlight! link TSTypeBuiltin Type
 highlight! link TSURI markdownUrl
 highlight! link TSVariable Fg
-highlight! link TSVariableBuiltin PurpleItalic
+highlight! link TSVariableBuiltin Aqua
 " }}}
 " neoclide/coc.nvim {{{
 call everforest#highlight('CocHoverRange', s:palette.none, s:palette.none, 'bold,underline')
