@@ -347,7 +347,8 @@ highlight! link TSConstBuiltin Aqua
 highlight! link TSConstMacro Aqua
 highlight! link TSConstant Aqua
 highlight! link TSConstructor Aqua
-highlight! link TSError ErrorText
+" use LSP diagnostic instead, ignore treesitter error
+highlight! link TSError NONE
 highlight! link TSException Red
 highlight! link TSField Green
 highlight! link TSFloat Purple
