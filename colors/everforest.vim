@@ -355,9 +355,9 @@ highlight! link TSFuncBuiltin Aqua
 highlight! link TSFuncMacro Aqua
 highlight! link TSFunction Blue
 highlight! link TSInclude PurpleItalic
-highlight! link TSKeyword Orange
+highlight! link TSKeyword OrangeItalic
 highlight! link TSKeywordFunction RedItalic
-highlight! link TSKeywordReturn Red
+highlight! link TSKeywordReturn RedItalic
 highlight! link TSLabel Orange
 highlight! link TSMethod Blue
 highlight! link TSNamespace Aqua
@@ -366,7 +366,7 @@ highlight! link TSOperator Orange
 highlight! link TSParameter Purple
 highlight! link TSParameterReference Fg
 highlight! link TSProperty Green
-highlight! link TSPunctBracket Aqua
+highlight! link TSPunctBracket Fg
 highlight! link TSPunctDelimiter Grey
 highlight! link TSPunctSpecial Fg
 highlight! link TSRepeat AquaItalic
@@ -383,7 +383,7 @@ call everforest#highlight('TSUnderline', s:palette.none, s:palette.none, 'underl
 highlight! link TSType Yellow
 highlight! link TSTypeBuiltin Type
 highlight! link TSURI markdownUrl
-highlight! link TSVariable Fg
+highlight! link TSVariable NONE
 highlight! link TSVariableBuiltin Aqua
 " }}}
 " neoclide/coc.nvim {{{
