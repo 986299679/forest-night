@@ -232,6 +232,7 @@ else
   call everforest#highlight('AquaItalic', s:palette.aqua, s:palette.none)
   call everforest#highlight('BlueItalic', s:palette.blue, s:palette.none)
   call everforest#highlight('PurpleItalic', s:palette.purple, s:palette.none)
+  call everforest#highlight('GreyItalic', s:palette.grey1, s:palette.none)
 endif
 if s:configuration.transparent_background || s:configuration.sign_column_background !=# 'default'
   call everforest#highlight('RedSign', s:palette.red, s:palette.none)
