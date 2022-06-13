@@ -301,7 +301,7 @@ endif
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   " Definition
   let s:terminal = {
-        \ 'black':    s:palette.bg3,
+        \ 'black':    s:palette.grey0,
         \ 'red':      s:palette.red,
         \ 'yellow':   s:palette.yellow,
         \ 'green':    s:palette.green,
@@ -415,6 +415,7 @@ highlight! link CocCodeLens Grey
 highlight! link CocPumSearch Aqua
 highlight! link CocMenuSel Visual
 highlight! link CocPumMenu Grey
+highlight! link CocPumVirtualText LineNr
 highlight! link HighlightedyankRegion Visual
 highlight! link CocGitAddedSign GreenSign
 highlight! link CocGitChangeRemovedSign PurpleSign
