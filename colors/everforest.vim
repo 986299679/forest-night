@@ -415,6 +415,7 @@ highlight! link CocCodeLens Grey
 highlight! link CocPumSearch Aqua
 highlight! link CocMenuSel Visual
 highlight! link CocPumMenu Grey
+highlight! link CocPumShortcut Grey
 highlight! link CocPumVirtualText LineNr
 highlight! link HighlightedyankRegion Visual
 highlight! link CocGitAddedSign GreenSign
