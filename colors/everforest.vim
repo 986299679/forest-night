@@ -340,33 +340,33 @@ endif
 " nvim-treesitter/nvim-treesitter {{{
 if has('nvim-0.8.0')
   highlight! link @text Green
-  highlight! link @tag.delimiter Green 
-  highlight! link @tag Orange 
-  highlight! link @structure Orange 
+  highlight! link @tag.delimiter Green
+  highlight! link @tag Orange
+  highlight! link @structure Orange
   highlight! link @string.regex Green
-  highlight! link @string.escape Yellow 
+  highlight! link @string.escape Yellow
   highlight! link @string.special Yellow
-  highlight! link @string Green 
-  highlight! link @repeat AquaItalic 
+  highlight! link @string Green
+  highlight! link @repeat AquaItalic
   highlight! link @punctuation Fg
   highlight! link @punctuation.special Orange
   highlight! link @punctuation.delimiter Grey
   highlight! link @punctuation.bracket Fg
-  highlight! link @property Green 
+  highlight! link @property Green
   highlight! link @parameter.reference Fg
-  highlight! link @parameter Purple 
-  highlight! link @operator Orange 
-  highlight! link @number Purple 
+  highlight! link @parameter Purple
+  highlight! link @operator Orange
+  highlight! link @number Purple
   highlight! link @namespace Aqua
   highlight! link @method Blue
-  highlight! link @label Orange 
+  highlight! link @label Orange
   highlight! link @keyword OrangeItalic
   highlight! link @keyword.return RedItalic
   highlight! link @keyword.function RedItalic
   highlight! link @keyword.operator Operator
   highlight! link @include PurpleItalic
   highlight! link @function Blue
-  highlight! link @function.macro Aqua 
+  highlight! link @function.macro Aqua
   highlight! link @function.builtin Aqua
   highlight! link @float Purple
   highlight! link @field Green
@@ -385,10 +385,10 @@ if has('nvim-0.8.0')
   highlight! link @boolean Purple
   highlight! link @type Type
   highlight! link @type.definition Yellow
-  highlight! link @type.builtin Type 
+  highlight! link @type.builtin Type
   highlight! link @uri markdownUrl
   highlight! link @variable NONE
-  highlight! link @variable.builtin Aqua 
+  highlight! link @variable.builtin Aqua
   highlight! link @storgeclass Orange
   highlight! link @define Aqua
   highlight! link @debug Orange
@@ -443,7 +443,7 @@ else
   call everforest#highlight('TSEmphasis', s:palette.none, s:palette.none, 'bold')
   call everforest#highlight('TSUnderline', s:palette.none, s:palette.none, 'underline')
   highlight! link TSType Yellow
-  highlight! link TSTypeDefinition Yellow 
+  highlight! link TSTypeDefinition Yellow
   highlight! link TSTypeBuiltin Type
   highlight! link TSURI markdownUrl
   highlight! link TSVariable NONE
